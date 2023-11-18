@@ -19,7 +19,7 @@ const Input: React.FC<InputProps> = ({
   register,
   required,
   errors,
-  type,
+  type = "text",
   disabled,
 }) => {
   return (
